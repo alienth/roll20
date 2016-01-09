@@ -6561,7 +6561,7 @@
   {
     "name": "Magic Missile",
     "description": "You create three glowing darts of magical force. Each dart hits a creature of your choice that you can see within range. A dart deals 1d4 + 1 force damage to its target. The darts all strike simultaneously, and you can direct them to hit one creature or several.",
-    "higherLevel": "When you cast this spell using a spell slot of 2nd level or higher, the spell creates one more dart for each slot level above 1st.",
+    "higherLevel": "When you cast this spell using a spell slot of 2nd level or higher, the spell creates one more dart for each slot level above 1st.\n\n**Darts**: [[?{Spell Level|1|2|3|4|5|6|7|8|9} + 2]]",
     "emote": "hurls 3 glowing darts of magical force",
     "source": "phb 257",
     "range": "120 ft",
