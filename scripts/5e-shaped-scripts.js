@@ -222,15 +222,15 @@
 	};
 
 	function createInitTokenAction(characterName) {
-		setAbility('Init', '', '%{' + characterName + '|Initiative}', shaped.settings.createAbilityAsToken);
+		setAbility('Roll-Initiative', '', '%{' + characterName + '|Initiative}', shaped.settings.createAbilityAsToken);
 	}
 
 	function createSaveQueryTokenAction(characterName) {
-		setAbility('Save', '', '%{' + characterName + '|save_query_macro}', shaped.settings.createAbilityAsToken);
+		setAbility('Saving-Throw', '', '%{' + characterName + '|save_query_macro}', shaped.settings.createAbilityAsToken);
 	}
 
 	function createCheckQueryTokenAction(characterName) {
-		setAbility('Check', '', '%{' + characterName + '|check_query_macro}', shaped.settings.createAbilityAsToken);
+		setAbility('Ability-Check', '', '%{' + characterName + '|check_query_macro}', shaped.settings.createAbilityAsToken);
 	}
 
 	shaped.decrementAmmo = function (characterName, attributeName) {
