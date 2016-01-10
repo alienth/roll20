@@ -6,7 +6,7 @@
 
 		showName: true, //show the name on the map (not to players)
 		showNameToPlayers: false, //show the name to players
-		showCharacterNameOnRollTemplate: false, //show the character's name on their roll templates
+		showCharacterNameOnRollTemplate: true, //show the character's name on their roll templates
 		//useAaronsNumberedScript: true, //add numbers at the end if using his script
 
 		//defaultTab: 'actions', //core is default. uncomment if you want the actions page. Change to 'spellbook' if you want the spellbook page. Change to 'all_npc' if you want to "Show All" for the NPC pages.
